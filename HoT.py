@@ -436,7 +436,6 @@ __________________×______________________\033[1;37m""")
 
 
 R()
-    else:
         os.system("clear")
         os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
         logo()
@@ -1371,7 +1370,6 @@ def main_apv():
     r1=requests.get("https://raw.githubusercontent.com/Mahin90/Mahin/main/Approved.text").text
     if key1 in r1:
     	R()
-    else:
         os.system("clear")
         os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
         logo()
